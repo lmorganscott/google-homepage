@@ -1,0 +1,139 @@
+body {
+    font-family: Arial, sans-serif;
+    font-size: 13px;
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    height: 30px;
+    width: 100%;
+} 
+
+.main {
+    margin: 200px 0;
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    height: 30px;
+    width: 100%;
+    background-color: #f2f2f2;
+}
+
+.left, .right {
+    margin-top: auto;
+    margin-bottom: auto;
+    padding-top: auto;
+    padding-bottom: auto;
+    line-height: 30px;
+}
+
+.left {
+    position: absolute;
+    left: 0px;
+}
+
+.right {
+    position: absolute;
+    right: 0px;
+}
+
+.left .text {
+    padding-left: 15px;
+}
+
+.right .text {
+    padding-right: 15px;
+}
+
+#text-right, #icon-right {
+    float: left;
+    line-height: 30px;
+}
+
+.helper {
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+}
+
+#icon-right a {
+    padding-right: 8px;
+}
+
+#icon-right img {
+    max-height: 20px;
+    max-width: 20px;
+    vertical-align: middle;
+}
+
+#profile-pic img {
+    max-height: 35px;
+    max-width: 35px;
+}
+
+a:link, a:visited {
+    text-decoration: none;
+}
+
+.header .text:link, .header .text:visited {
+    color: black;
+}
+
+.footer .text:link, .footer .text:visited {
+    color: #666;
+}
+
+.text:hover {
+    text-decoration: underline;
+}
+
+#google-container {
+    margin-top: 100px;
+
+
+}
+
+#google-logo {
+    height: 92px;
+    width: 272px;
+    flex: 1;
+    display: flex;
+    margin: 0 auto;
+}
+
+#search-box {
+    flex: 1;
+    display: flex;
+    border-radius: 2px;
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,0.16),
+        0 0 0 1px rgba(0,0,0,0.08);
+    margin: 0 auto;
+    height: 44px;
+    width: 484px;
+}
+
+#button-container {
+    width: 500px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+
+.search {
+    height: 36px;
+    line-height: 27px;
+    background-color: #f2f2f2;
+    border: 1px solid #f2f2f2;
+    border-radius: 2px;
+    color: #757575;
+    font-family: arial, sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+    margin: 11px 4px;
+    min-width: 54px;
+    padding: 0 16px;
+    text-align: center;
+}
