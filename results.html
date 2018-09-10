@@ -3,13 +3,39 @@
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>The Odin Project</title>
+    <title>The Odin Project - Google Search</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" href="styles/results.css" />
 </head>
 <body>
-    <div class="navigation-section">Nav</div>
-    <div class="results-section">Body</div>
-    <div class="footer-section">Footer</div>
+    <div class="navigation-section">
+        <div id = "top-header">
+            <img id = "google-logo" src="images/googlelogo.png">
+            <div id = "search">
+                <div id = "left-search">
+                    <input id = "search-box" type="text" value="The Odin Project">
+                    <div id = "microphone">
+                        <img src="images/microphone.png">
+                    </div>
+                </div>
+                <div id = "button-wrapper">
+                    <button id = "button"><img src="images/magnifying-glass.png"></button>
+                </div>
+            </div>
+            <img src="images/apps-icon.png" onmouseover= "this.src = 'images/hover-apps-icon.png'" onmouseout= "this.src = 'images/apps-icon.png'">
+            <a>Sign In</a>
+        </div>
+        <div id = "nav-header"></div>
+    </div>
+    <div class="results-section">
+        <div id="number-of-results"></div>
+        <div id="results-wrapper"></div>
+        <div id="related-searches"></div>
+        <div id="page-navigation"></div>
+    </div>
+    <div class="footer-section">
+        <div id = "top-footer"></div>
+        <div id = "nav-footer"></div>
+    </div>
 </body>
 </html>
