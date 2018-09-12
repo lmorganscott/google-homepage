@@ -8,12 +8,15 @@
 
 #top-header {
     height: 60px;
+    position: absolute;
+    top: 20px;
 }
 
 #google-logo {
     height: 44px;
     width: 120px;
     float: left;
+    padding-right: 15px;
 }
 
 #search {
@@ -35,7 +38,8 @@
     display: flex;
     flex: 100%;
     line-height: 34px;
-    height: 34px;
+    height: 38px;
+    width: 528px;
     float: left;
 }
 
@@ -46,18 +50,20 @@
     background: transparent;
     height: 24px;
     width: 18px;
+    padding: 10px 14px;
 }
 
 #button {
     border: 0;
     box-shadow: 0;
-    position: relative;
-    right: 0;
+    height: 24px;
+    width: 24px;
 }
 
 #button img {
     height: 24px;
     width: 24px;
+    padding: 10px 0;
 }
 
 #nav-header {
