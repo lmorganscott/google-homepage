@@ -6,9 +6,10 @@ body, html{
 .navigation-section {
     position: fixed;
     top: 0;
-    height: 110px;
+    height: 130px;
     width: 100%;
     background-color: #fafafa;
+    font-size: 13px;
 }
 
 #top-header {
@@ -94,13 +95,58 @@ body, html{
     line-height: 28px;
     font-weight: bold;
     font-family: sans-serif;
-    font-size: 13px;
     color: #fff;
     float: right;
 }
 
+.sign-in:hover {
+    box-shadow: 1px 1px #888888;
+}
+
 #nav-header {
+    position: absolute;
     height: 50px;
+    width: 100%;
+    bottom: 0;
+}
+
+#menu-wrapper {
+    position: absolute;
+    left: 0;
+    height: 100%;
+    width: 782px;
+}
+
+.left-navigation, .right-navigation {
+    height: 100%;
+}
+
+.left-navigation a, .right-navigation a {
+    display: inline-block;
+    margin: 0 8px;
+    padding: 10px 8px;
+    color: #777;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+.left-navigation a:hover, .right-navigation a:hover {
+    color: #222;
+}
+
+.left-navigation {
+    padding-left: 150px;
+    float: left;
+}
+
+#current-page {
+    border-bottom: 3px solid #1A73E8;
+    color: #1A73E8;
+    padding-bottom: 25px;
+}
+
+.right-navigation {
+    float: right;
 }
 
 .footer-section {
