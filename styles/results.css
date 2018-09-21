@@ -149,6 +149,28 @@ body, html{
     height: 800px;
 }
 
+.result a {
+    color: #1a0dab;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.result cite {
+    color: #006621;
+    font-size: 14px;
+    line-height: 16px;
+    font-style: normal;
+}
+
+.content{
+    color:#545454;
+    font-size: small;
+}
+
+.date {
+    color: #808080;
+}
+
 #number-of-results {
     padding-left: 166px;
     line-height: 43px;
