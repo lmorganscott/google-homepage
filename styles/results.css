@@ -1,10 +1,10 @@
 body, html{
   margin:0;
   padding:0;
+  font-family: sans-serif;
 }
 
 .navigation-section {
-    position: fixed;
     top: 0;
     height: 130px;
     width: 100%;
@@ -15,8 +15,7 @@ body, html{
 #top-header {
     height: 60px;
     width: 100%;
-    position: absolute;
-    top: 20px;
+    padding-top: 20px;
 }
 
 #google-logo {
@@ -94,7 +93,6 @@ body, html{
     margin: 8px 24px;
     line-height: 28px;
     font-weight: bold;
-    font-family: sans-serif;
     color: #fff;
     float: right;
 }
@@ -104,14 +102,11 @@ body, html{
 }
 
 #nav-header {
-    position: absolute;
     height: 50px;
     width: 100%;
-    bottom: 0;
 }
 
 #menu-wrapper {
-    position: absolute;
     left: 0;
     height: 100%;
     width: 782px;
@@ -126,7 +121,6 @@ body, html{
     margin: 0 8px;
     padding: 10px 8px;
     color: #777;
-    font-family: sans-serif;
     text-align: center;
 }
 
@@ -142,11 +136,24 @@ body, html{
 #current-page {
     border-bottom: 3px solid #1A73E8;
     color: #1A73E8;
-    padding-bottom: 25px;
+    padding-bottom: 22px;
 }
 
 .right-navigation {
     float: right;
+}
+
+.results-section {
+    position: relative;
+    width: 100%;
+    height: 800px;
+}
+
+#number-of-results {
+    padding-left: 166px;
+    line-height: 43px;
+    color: #808080;
+    font-size: small;
 }
 
 .footer-section {
