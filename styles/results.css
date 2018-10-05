@@ -146,7 +146,7 @@ body, html{
 .results-section {
     position: relative;
     width: 100%;
-    height: 800px;
+    height: 1300px;
 }
 
 .result a {
@@ -176,6 +176,100 @@ body, html{
     line-height: 43px;
     color: #808080;
     font-size: small;
+}
+
+#results-wrapper {
+    margin-left: 150px;
+    margin-right: 264px;
+    width: 632px;
+    font-family: 'Roboto', arial, sans-serif;
+    text-decoration: none;
+    color: #222;
+}
+
+#results-wrapper h3 {
+    margin: 0;
+    font-size: 18px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+#results-wrapper h3 a:visited {
+    color: #609;
+}
+
+#results-wrapper h3 a:link {
+    color: #1a0dab;
+    text-decoration: none;
+    font-weight: normal;
+}
+
+#first-result, #simple-results {
+    padding-left: 16px;
+}
+
+#first-result .result {
+    padding: 0;
+    margin: 0;
+}
+
+#first-result table {
+    margin-left: 22px;
+    border-collapse: separate;
+    border-spacing: 2px;
+}
+
+#first-result tbody {
+    display: table-row-group;
+    vertical-align: middle;
+}
+
+#first-result tr {
+    display: table-row;
+    vertical-align: inherit;
+}
+
+#first-result td {
+    border: 1px solid transparent;
+    border-radius: 2px;
+    margin-top: 2px;
+    padding: 7px 6px 3px 5px;
+    width: 294px;
+}
+
+#first-result td div {
+    overflow: hidden;
+    width: 220px;
+    color: #545454;
+    font-size: small;
+}
+
+#bottom-cell {
+    column-span: 2;
+    padding-left: 6px;
+    vertical-align: top;
+}
+
+#bottom-cell a {
+    font-size: small;
+}
+
+#simple-results {
+    font-size: medium;
+    font-weight: normal;
+}
+
+.result {
+    margin-top: 0;
+    margin-bottom: 26px;
+    line-height: 1.2;
+    text-align: left;
+}
+
+.result em {
+    font-weight: bold;
+    font-style: normal;
 }
 
 .footer-section {
